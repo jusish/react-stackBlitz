@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap');
+
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+header {
+  background-color: #9dc4ff;
+  padding: 2rem;
+}
+header a {
+  color: #000627ea;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 2rem;
+  font-style: italic;
+  font-family: 'Bruno Ace SC', cursive;
+}
+main {
+  padding: 1rem;
+}
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.product {
+  border: 1px #bcbcbc solid;
+  margin: 1rem;
+  border-radius: 5px;
+  box-shadow: 1px 2px 10px rgb(133, 133, 255);
+}
+.product img {
+  width: 100%;
+  max-width: 400px;
+}
+.product-info {
+  padding: 1rem;
+}
